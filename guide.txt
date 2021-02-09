@@ -1,0 +1,8 @@
+npm init -y
+npm i express ejs express-ejs-layouts
+
+// restart server when theres changes
+npm i -D nodemon
+npm i mongoose
+
+npm i -D dotenv
