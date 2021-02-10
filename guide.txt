@@ -6,3 +6,4 @@ npm i -D nodemon
 npm i mongoose
 
 npm i -D dotenv
+npm i body-parser
