@@ -7,3 +7,7 @@ npm i mongoose
 
 npm i -D dotenv
 npm i body-parser
+
+npm i multer
+
+npm run devStart
