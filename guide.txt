@@ -9,5 +9,6 @@ npm i -D dotenv
 npm i body-parser
 
 npm i multer
+npm i method-override
 
 npm run devStart
