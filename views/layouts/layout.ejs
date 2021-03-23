@@ -27,14 +27,16 @@
     ></script>
     <script defer src="https://unpkg.com/filepond/dist/filepond.js"></script>
     <script defer src="/scripts/fileUpload.js"></script>
-
+    <link rel="stylesheet" href="/stylesheets/main.css" />
     <title>Mybrary</title>
   </head>
   <body>
-    Before
-    <div><%- include('../partials/header.ejs') %></div>
-    <div><%- include('../partials/errorMessage.ejs') %></div>
-    <div><%- body %></div>
-    After
+    <div class="container">
+      <div><%- include('../partials/header.ejs') %></div>
+      <div class="inner-container">
+        <div><%- include('../partials/errorMessage.ejs') %></div>
+        <div><%- body %></div>
+      </div>
+    </div>
   </body>
 </html>

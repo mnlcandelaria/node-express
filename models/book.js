@@ -7,7 +7,7 @@ const bookSchema = new mongoose.Schema({
     min: 6,
     max: 255,
   },
-  decription: {
+  description: {
     type: String,
   },
   publishDate: {

@@ -12,3 +12,7 @@ npm i multer
 npm i method-override
 
 npm run devStart
+
+live server chrome
+filepond
+transfonter
